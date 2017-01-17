@@ -1,0 +1,15 @@
+.row {
+	border: 1px solid black;
+}
+
+.input-box {
+	margin-bottom: 15px;
+}
+
+.block-label {
+	display: block;
+}
+
+.results {
+	font-weight: bold;
+}

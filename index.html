@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+</head>
+<body class="container">
+	<div class="row">
+		<div class="col-xs-6 col-xs-offset-3">
+			<div class="row">
+				<div class="col-xs-12">
+					<label class="block-label" for="candy">Amount of Candy You Have</label>
+					<input class="input-box" id="candy" type="number" value="0" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<label class="block-label" for="pokemon">Amount of That Pokemon You Have</label>
+					<input class="input-box" id="pokemon" type="number" value="0" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<label class="block-label" for="cost">Amount of Candy to Evolve That Pokemon</label>
+					<input class="input-box" id="cost" type="number" value="0" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3">
+					<button type="button" id="calculate" class="btn btn-primary">Calculate</button>
+				</div>
+				<div class="col-xs-9">
+					<span>Amount to Transfer: </span><span id="results" class="results"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="assets/js/jquery-3.1.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+</html>

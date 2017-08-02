@@ -8,6 +8,11 @@ h1 {
 	border-bottom: 1px solid black;
 }
 
+h1,
+h3 {
+	text-align: center;
+}
+
 .row {
 	background-color: #eb6440;
 	border: 1px solid black;

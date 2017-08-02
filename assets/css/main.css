@@ -2,6 +2,7 @@ body,
 div.main-container {
 	background-color: #ffcb05;
 	border: none;
+	box-shadow: none;
 }
 
 h1 {
@@ -22,6 +23,7 @@ h3 {
 .row {
 	background-color: #eb6440;
 	border: 1px solid black;
+	box-shadow: -1px 2px 5px 1px #3a3a3a;
 }
 
 .input-box {

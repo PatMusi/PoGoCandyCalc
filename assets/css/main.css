@@ -1,4 +1,15 @@
+body,
+div.main-container {
+	background-color: #ffcb05;
+	border: none;
+}
+
+h1 {
+	border-bottom: 1px solid black;
+}
+
 .row {
+	background-color: #eb6440;
 	border: 1px solid black;
 }
 
@@ -11,5 +22,16 @@
 }
 
 .results {
+	font-size: 22px;
 	font-weight: bold;
+	margin-left: 5px;
+}
+
+.row {
+	margin: 10px 0;
+}
+
+.btn {
+	background-color: #316ab2;
+	margin: 3px 0;
 }

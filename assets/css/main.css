@@ -25,6 +25,7 @@ h3 {
 }
 
 .input-box {
+	font-family: PocketMonk;
 	margin-bottom: 15px;
 }
 
@@ -33,6 +34,7 @@ h3 {
 }
 
 .results {
+	font-family: PocketMonk;
 	font-size: 22px;
 	font-weight: bold;
 	margin-left: 5px;
@@ -44,5 +46,6 @@ h3 {
 
 .btn {
 	background-color: #316ab2;
+	font-family: PocketMonk;
 	margin: 3px 0;
 }
